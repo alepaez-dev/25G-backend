@@ -18,26 +18,26 @@
   * Regresar, Imprimir
   */
  
- const nombres = [
-   "Andres", // accumulador = 'Andres' + 
-   "Andres de Anda", // acumulador = "Andres Andres de Anda Christian, Damian"
-   "Christian",
-   "Damian",
-   "Dani",
-   "Diego",
-   "Dan",
-   "Gustavo",
-   "Ignacio",
-   "Jorge",
-   "Karla",
-   "Lau",
-   "Luis",
-   "Mara",
-   "Max",
-   "Pao",
-   "Roberto",
-   "Samantha"
- ]
+//  const nombres = [
+//    "Andres", // accumulador = 'Andres' + 
+//    "Andres de Anda", // acumulador = "Andres Andres de Anda Christian, Damian"
+//    "Christian",
+//    "Damian",
+//    "Dani",
+//    "Diego",
+//    "Dan",
+//    "Gustavo",
+//    "Ignacio",
+//    "Jorge",
+//    "Karla",
+//    "Lau",
+//    "Luis",
+//    "Mara",
+//    "Max",
+//    "Pao",
+//    "Roberto",
+//    "Samantha"
+//  ]
  
  /**
   * 
@@ -63,4 +63,3 @@
      [current]: current.length
    }
  }, {})
- 
