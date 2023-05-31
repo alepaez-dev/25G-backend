@@ -1,5 +1,6 @@
 // @ts-ignore
-console.log(process.argv)
+
+const nombre = process.argv[2];
 const nombres = [
   "Andres", 
   "Andres de Anda", 
@@ -27,3 +28,21 @@ const nombres = [
  * 
  * Esto tiene que estar en una funcion.
  */
+
+/**
+ * Find -> si encuentra te lo trae
+ * Filters -> trae arreglo con los filtrados
+ * Includes -> te regresa un boolea si lo encuentra, te regresa true or false
+ */
+
+const findName = (nombre) => {
+  console.log("Estamos en la funcion findName con el nombnre =>", nombre);
+  const existe = nombres.includes(nombre)
+  if(existe) {
+    console.log("Bienvenido")
+    return
+  } 
+  console.log("Fuera de aqui")
+}
+
+findName(nombre)
